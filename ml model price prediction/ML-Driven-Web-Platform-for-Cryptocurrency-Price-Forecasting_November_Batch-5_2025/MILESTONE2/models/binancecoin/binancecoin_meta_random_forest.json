@@ -1,0 +1,30 @@
+{
+  "feature_cols": [
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Volume",
+    "log_price",
+    "return_1d",
+    "ma_7",
+    "ma_14",
+    "ma_21",
+    "ma_50",
+    "std_7",
+    "std_21",
+    "vol_ma_7",
+    "vol_ma_21",
+    "vol_to_ma7",
+    "market_cap",
+    "dow",
+    "month",
+    "return_7d"
+  ],
+  "meta": {
+    "n_estimators": 100,
+    "min_samples_leaf": 1,
+    "max_depth": 5
+  },
+  "model_type": "random_forest"
+}
