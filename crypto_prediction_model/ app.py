@@ -3,7 +3,10 @@ import pandas as pd
 import numpy as np
 import yfinance as yf
 import matplotlib.pyplot as plt
-from tensorflow.keras.models import load_model
+try:
+    from tensorflow.keras.models import load_model
+except:
+    load_model = None
 from sklearn.preprocessing import MinMaxScaler
 from datetime import date
 from datetime import date
