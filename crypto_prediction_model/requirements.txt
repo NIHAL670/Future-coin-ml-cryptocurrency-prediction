@@ -6,3 +6,4 @@ matplotlib
 yfinance
 bcrypt
 plotly
+tensorflow==2.12.0
