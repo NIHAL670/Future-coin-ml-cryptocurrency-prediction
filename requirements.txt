@@ -4,7 +4,7 @@ pandas
 matplotlib
 seaborn
 scikit-learn
-tensorflow
+tensorflow-cpu
 plotly
 yfinance
 
