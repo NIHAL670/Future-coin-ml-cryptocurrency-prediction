@@ -4,7 +4,8 @@ pandas
 scikit-learn
 plotly
 yfinance
-python
+
+
 
 
 
