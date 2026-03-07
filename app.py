@@ -1,4 +1,10 @@
 import streamlit as st
+# --- Page Configuration ---
+st.set_page_config(
+    page_title="Crypto Price Prediction (LSTM)",
+    page_icon="₿",
+    layout="wide"
+)
 import pandas as pd
 import numpy as np
 import yfinance as yf
@@ -31,12 +37,6 @@ COIN_LAUNCH_DATES = {
     "Dogecoin(DOGE)": date(2013,12,6)
 }
 
-# --- Page Configuration ---
-st.set_page_config(
-    page_title="Crypto Price Prediction (LSTM)",
-    page_icon="₿",
-    layout="wide"
-)
 
 # --- Background and Gradient Function ---
 def set_page_background(image_file=None, gradient_start=None, gradient_end=None):
